@@ -49,7 +49,7 @@ sudo apt install libgl1-mesa-dri
 sudo su -c 'grep -q -F "dtoverlay=vc4-kms-v3d" /boot/config.txt || echo "dtoverlay=vc4-kms-v3d" >> /boot/config.txt'
 
 # Clone the repository
-git clone https://github.com/philipptrenz/photo-booth.git && cd photo-booth
+git clone https://github.com/timmon25/photo-booth.git && cd photo-booth
 
 # Install node
 sudo ./scripts/install_node_v9.sh
