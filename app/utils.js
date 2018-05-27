@@ -43,6 +43,7 @@ class Utils {
     this.getContentDirectory();
 
     this.initializeBranding();
+    this.initializeLogo();
     this.loadRecentImagesAfterStart();
     this.printIpAddresses();
   }
@@ -199,6 +200,41 @@ class Utils {
       }
     }
   }
+
+  initializeLogo() {
+        if (this.config.branding) {
+
+            var type = this.config.branding.type
+            if (type) {
+                if (type == 'text') {
+                    $('#logo').html(this.config.branding.content);
+                } else if (type == 'image') {
+                    $('#logo').html("Not yet implemented");
+                }
+            }
+
+
+            var position = this.config.branding.position
+            if (position) {
+                if (position == 'center') {
+                    $('#logo').css('align-items', 'center');
+                    $('#logo').css('justify-content', 'center');
+                } else if (position == 'topleft') {
+                    $('#logo').css('align-items', 'flex-start');
+                    $('#logo').css('justify-content', 'flex-start');
+                } else if (position == 'topright') {
+                    $('#logo').css('align-items', 'flex-start');
+                    $('#logo').css('justify-content', 'flex-end');
+                } else if (position == 'bottomleft') {
+                    $('#logo').css('align-items', 'flex-end');
+                    $('#logo').css('justify-content', 'flex-start');
+                } else if (position == 'bottomright') {
+                    $('#logo').css('align-items', 'flex-end');
+                    $('#logo').css('justify-content', 'flex-end');
+                }
+            }
+        }
+    }
 
   getTimestamp(now = new Date()) {
     var secs = now.getSeconds() < 10 ? '0'+now.getSeconds() : now.getSeconds();
