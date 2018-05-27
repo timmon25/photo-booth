@@ -3,7 +3,7 @@
     "fullscreen": false,
     "width": 700,
     "height": 600,
-    "showDevTools": false,
+    "showDevTools": true,
     "useGPIO": false,
     "grayscaleMode": false,
     "preventScreensaver": true
@@ -32,7 +32,7 @@
   },
   "logo": {
     "type": "text",
-    "content": "<div style='font-size: 1.2em; padding-left: 25px;'><b style='font-size: 2em; padding-left: 15px;'>poolimate</b><br /></div>",
+    "content": "<div style='font-size: 1.2em; padding-left: 25px;'><b style='font-size: 2em; padding-left: 15px;'>Poolimate</b><br /></div>",
     "position": "topright"
   }
 }

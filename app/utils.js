@@ -202,19 +202,19 @@ class Utils {
   }
 
   initializeLogo() {
-        if (this.config.branding) {
+        if (this.config.logo) {
 
-            var type = this.config.branding.type
+            var type = this.config.logo.type
             if (type) {
                 if (type == 'text') {
-                    $('#logo').html(this.config.branding.content);
+                    $('#logo').html(this.config.logo.content);
                 } else if (type == 'image') {
                     $('#logo').html("Not yet implemented");
                 }
             }
 
 
-            var position = this.config.branding.position
+            var position = this.config.logo.position
             if (position) {
                 if (position == 'center') {
                     $('#logo').css('align-items', 'center');
