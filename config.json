@@ -21,7 +21,7 @@
   },
   "content_dir": "../content",
   "webapp": {
-    "password": "test", //TODO change before going live
+    "password": "test", 
     "maxDownloadImageSize": 800,
     "enableRemoteRelease": true
   },
