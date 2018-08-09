@@ -16,7 +16,7 @@
     "secondsPerImages": 8
   },
   "gphoto2": {
-    "capturetarget": 1,
+    "capturetarget": 0,
     "keep": true
   },
   "content_dir": "../content",
