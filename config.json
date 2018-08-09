@@ -1,6 +1,6 @@
 {
   "init": {
-    "fullscreen": false,
+    "fullscreen": true,
     "width": 700,
     "height": 600,
     "showDevTools": false,
@@ -8,7 +8,7 @@
     "grayscaleMode": false,
     "preventScreensaver": true
   },
-  "maxImageSize": "1000",
+  "maxImageSize": "500",
   "countdownLength": 5,
   "slideshow": {
     "enabled": true,
@@ -23,7 +23,7 @@
   "webapp": {
     "password": "arspoolludendi", 
     "maxDownloadImageSize": 800,
-    "enableRemoteRelease": true
+    "enableRemoteRelease": false
   },
   "branding": {
     "type": "text",
@@ -32,7 +32,7 @@
   },
   "logo": {
     "type": "text",
-    "content": "<div style='font-size: 1.2em; padding-left: 25px;'><b style='font-size: 2em; padding-left: 15px;'><img src='logo.png'; alt='no photo found'></b><br /></div>",
+    "content": "<div style='font-size: 1.2em; padding-left: 25px;'><b style='font-size: 2em; padding-left: 15px;'><img height='80' src='logo.png'; alt='no photo found'></b><br /></div>",
     "position": "topright"
   }
 }
