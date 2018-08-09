@@ -1,6 +1,6 @@
 {
   "init": {
-    "fullscreen": true,
+    "fullscreen": false,
     "width": 700,
     "height": 600,
     "showDevTools": false,
@@ -8,7 +8,7 @@
     "grayscaleMode": false,
     "preventScreensaver": true
   },
-  "maxImageSize": "500",
+  "maxImageSize": "1000",
   "countdownLength": 5,
   "slideshow": {
     "enabled": true,
