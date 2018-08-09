@@ -21,7 +21,7 @@
   },
   "content_dir": "../content",
   "webapp": {
-    "password": "test", 
+    "password": "arspoolludendi", 
     "maxDownloadImageSize": 800,
     "enableRemoteRelease": true
   },
