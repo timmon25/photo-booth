@@ -32,7 +32,7 @@
   },
   "logo": {
     "type": "text",
-    "content": "<div style='font-size: 1.2em; padding-left: 25px;'><b style='font-size: 2em; padding-left: 15px;'><img src="logo.png"></b><br /></div>",
+    "content": "<div style='font-size: 1.2em; padding-left: 25px;'><b style='font-size: 2em; padding-left: 15px;'><img src='logo.png'></b><br /></div>",
     "position": "topright"
   }
 }
