@@ -3,8 +3,8 @@
     "fullscreen": false,
     "width": 700,
     "height": 600,
-    "showDevTools": true,
-    "useGPIO": false,
+    "showDevTools": false,
+    "useGPIO": true,
     "grayscaleMode": false,
     "preventScreensaver": true
   },
